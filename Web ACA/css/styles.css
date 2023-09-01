@@ -44,13 +44,14 @@ body{
 .menu-item {
     text-decoration: none;
     color: white;
-    margin-right: 30px;
-    font-size: 20px;
+    margin-right: 20px;
+    font-size: 18px;
     height: 100%;
     line-height: 40px;
     display: inline-flex;
     place-items: center;
-
+    position: relative;
+    left: 10%;
   }
 
   .menu-item:hover{
@@ -67,11 +68,20 @@ body{
 
   .containerBG1{
   width: 100%;
-  height: 800px;
+  height: 615px;
   background-color: #15203D;
   display: flex;
   color: white; 
   position: relative;
+  }
+
+  .imgContainerBG1 {
+    width: 1920px;
+    height: 615px;
+  }
+
+  .cambioColorTexto {
+    color: #94F9FF;
   }
 
 /* --------- CONTAINERBG1 ---------*/
@@ -100,12 +110,22 @@ body{
 .containerBG3 {
   width: 100%;
   height: 1250px;
-  background-color: #E7FCFF; 
+  background-color: #3F60B5; 
   position: relative;
 }
 
+.containerContentBG3 {
+  width: 700px;
+  height: 700px;
+  position: relative;
+  color: #BBD2FF;
+  display: grid;
+  place-items: center;
+  margin: auto;
+}
+
 .subContainer1 {
-  width: 1150px;
+  width: 1000px;
   height: 300px;
   background-color: #DDF2FF;
   opacity: 0.9;
@@ -113,21 +133,21 @@ body{
 
   position: absolute;
   top: 22%;
-  left: 10%;
+  left: 18%;
 
 }
 
 .subContainer2{
 
-  width: 1150px;
-  height: 340px;
+  width: 1000px;
+  height: 300px;
   background-color: #DDF2FF;
   opacity: 0.9;
   border-radius: 20px;
 
   position: absolute;
   top: 60%;
-  left: 10%;
+  left: 18%;
 }
 
 /* --------- CONTAINERBG3 ---------*/
@@ -139,7 +159,7 @@ body{
 .containterBG4{
   width: 100%;
   height: 1100px;
-  background-color: #C9EBFF;
+  background-color: #1E4556;
   position: relative;
 }
 
@@ -166,7 +186,7 @@ body{
 .elementos {
   flex: 1 0 auto;
   margin: 0 50px;
-  background-color: #214352;
+  background-color: #5593CB;
   width: 350px;
   height: 420px;
   text-align: center;
@@ -175,7 +195,7 @@ body{
 
 .btnCarrusel {
   padding: 10px 20px;
-  background-color: #37b2ff;
+  background-color: #83a2ff;
   color: rgb(255, 255, 255);
   text-decoration: none;
   border: none;
@@ -200,11 +220,76 @@ body{
 
 .containerBG5 {
 width: 100%;
-height: 1000px;
-background-color: #35718A;
+height: 850px;
+background-color: #5B7EC1;
+position: relative;
 }
+
+.ubicacion {
+  position: relative;
+  left: 56%;
+  bottom: 26.5%;
+}
+
+form{
+  color: #999;
+  border-radius: 3px;
+  background-color: transparent;
+  margin: 0;
+  position: relative;
+  left: 5%;
+  top: 30%;
+  width: 670px;
+  padding: 15px;
+  
+}
+
+input, textarea {
+  border: 0;
+  outline: none;
+  width: 100%;
+  color: transparent;
+}
+
+.form-input {
+  border-bottom: 1.5px solid #cdcdcd;
+  padding: 5px;
+  width: 90%;
+  color: white;
+}
+
+.form-input:focus{
+  border-bottom: 2px solid #ffffff;
+}
+
+.center_content {
+position: relative;
+top: 0%;
+left: 23%;
+background-color: #214667;
+color: white;
+width: 35%;
+height: 40px;
+border-radius: 5px;
+text-align: center;
+}
+
+.center_content:hover{
+  background-color: #183044;
+  transition: 0.2s
+}
+
+
+::placeholder { color: #BABABA;}
+
 
 /* --------- CONTAINERBG5 ---------*/
 
+.footer{
+  width: 100%;
+  height: 200px;
+  position: relative;
+  background-color: #020431;
+}
 
 
