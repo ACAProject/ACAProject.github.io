@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+body{
+    background-color: #007d90;
+    margin: 0;
+    background-image: url(../img/Fondo\ Index.jpg);
+    display: block;
+}
+
+/* --------- NAVBAR ---------*/
+
+.containerACA{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: #154663;
+    align-items: center;
+    position: relative;
+    margin: 0;
+}
+
+.a-ACA{
+  width: 80px;
+  margin: 0;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.containerMenuNavegable{
+    font-family: Arial;
+    width: 42%;
+    height: 60px;
+    font-size: 20px;
+    background-color: #154663;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.menu-item {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    height: 100%;
+    line-height: 40px;
+    display: inline-flex;
+    place-items: center;
+    position: relative;
+    left: 10%;
+    padding: 0 16px;
+  }
+
+  .menu-item:hover{
+    background-color: #04283b;
+    color: #badcff;
+    transition: .3s;
+  }
+
+  /* --------- NAVBAR ---------*/
+
+
+
+/* --------- CONTAINERBG1 ---------*/
+
+  .containerBG1{
+  width: 100%;
+  height: 700px;
+  background-color: #15203D;
+  display: flex;
+  color: white; 
+  position: relative;
+  }
+
+  .imgContainerBG1 {
+    width: 1920px;
+    height: 700px;
+  }
+
+  .cambioColorTexto {
+    color: #94F9FF;
+  }
+
+/* --------- CONTAINERBG1 ---------*/
+
+
+  /* --------- CONTAINERBG2 ---------*/
+
+.containerBG2{
+  background-color: #ffffff;
+  width: 100%;
+  height: 850px;
+  position: relative;
+}
+
+/* --------- CONTAINERBG2 ---------*/
+
+
+
+/* --------- CONTAINERBG3 ---------*/
+
+
+.TituloJustify{
+  text-align:center;
+}
+
+.containerBG3 {
+  width: 100%;
+  height: 1250px;
+  background-color: #3F60B5; 
+  position: relative;
+}
+
+.containerContentBG3 {
+  width: 700px;
+  height: 700px;
+  position: relative;
+  color: #BBD2FF;
+  display: grid;
+  place-items: center;
+  margin: auto;
+}
+
+.subContainer1 {
+  width: 1000px;
+  height: 300px;
+  background-color: #DDF2FF;
+  opacity: 0.9;
+  border-radius: 20px;
+
+  position: absolute;
+  top: 22%;
+  left: 18%;
+
+}
+
+.subContainer2{
+
+  width: 1000px;
+  height: 300px;
+  background-color: #DDF2FF;
+  opacity: 0.9;
+  border-radius: 20px;
+
+  position: absolute;
+  top: 60%;
+  left: 18%;
+}
+
+/* --------- CONTAINERBG3 ---------*/
+
+
+
+/* --------- CONTAINERBG4 ---------*/
+
+.containterBG4{
+  width: 100%;
+  height: 1100px;
+  background-color: #1E4556;
+  position: relative;
+}
+
+.subContainer3 {
+  background-color: #4E7586;
+  width: 80%;
+  height: 175px;
+  position: relative;
+  left: 10%;
+  top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.carrusel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  position: relative;
+}
+  
+.elementos {
+  flex: 1 0 auto;
+  margin: 0 50px;
+  background-color: #5593CB;
+  width: 350px;
+  height: 420px;
+  text-align: center;
+  position: relative;
+}
+
+.btnCarrusel {
+  padding: 10px 20px;
+  background-color: #83a2ff;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 80%;
+  left: 32%;
+  font-size: 18px;
+}
+
+.btnCarrusel:hover {
+  color: #ffffff;
+  background-color: #102134;
+  transition: 0.2s;
+}
+
+/* --------- CONTAINERBG4 ---------*/
+
+
+/* --------- CONTAINERBG5 ---------*/
+
+.containerBG5 {
+width: 100%;
+height: 850px;
+background-color: #5B7EC1;
+position: relative;
+}
+
+.ubicacion {
+  position: relative;
+  left: 53%;
+  bottom: 31%;
+}
+
+form{
+  color: #999;
+  border-radius: 3px;
+  background-color: transparent;
+  margin: 0;
+  position: relative;
+  left: 5%;
+  top: 30%;
+  width: 670px;
+  padding: 15px;
+  
+}
+
+input, textarea {
+  border: 0;
+  outline: none;
+  width: 100%;
+  color: transparent;
+}
+
+.form-input {
+  border-bottom: 1.5px solid #dad9d9;
+  padding: 5px;
+  width: 90%;
+  color: white;
+}
+
+.form-input:focus{
+  border-bottom: 2px solid #ffffff;
+}
+
+.center_content {
+position: relative;
+top: 0%;
+left: 23%;
+background-color: #214667;
+color: white;
+width: 35%;
+height: 40px;
+border-radius: 5px;
+text-align: center;
+}
+
+.center_content:hover{
+  background-color: #183044;
+  transition: 0.2s
+}
+
+
+::placeholder { color: #BABABA;}
+
+
+/* --------- CONTAINERBG5 ---------*/
+
+.footer{
+  width: 100%;
+  height: 165px;
+  position: relative;
+  background-color: #020431;
+}
+
+/* ....................................................... PAGINA DE SERVICIOS .........................................................*/
+
+
+.containerBG1-servicios{
+  width: 100%;
+  height: 700px;
+  background-color: #15203D;
+  display: flex;
+  color: white; 
+  position: relative;
+}
