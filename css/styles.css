@@ -371,6 +371,143 @@ text-align: center;
   text-align: center;
 }
 
+/* ....................................................... PAGINA DE SERVICIOS .........................................................*/
+
+
+.containerBG1-servicios{
+  width: 100%;
+  height: 700px;
+  background-color: #15203D;
+  display: flex;
+  color: white; 
+  position: relative;
+}
+
+
+/* ....................................................... PAGINA SOBRE NOSOTROS .........................................................*/
+
+.nosotrosSec1 {
+  width: 100%;
+  height: 250px;
+  background-color: #1D2C55;
+}
+
+.nosotrosSec2 {
+  width: 100%;
+  height: 1200px;
+  background-color: #D2DEFF;
+  padding: 100px;
+}
+
+.nosotrosSec3 {
+  width: 100%;
+  height: 1200px;
+  background-color: #1D2C55;
+}
+
+.nosotrosIntegrantes {
+width: 100%;
+height: 75%;
+/*border: 1px solid #ff0000;*/
+
+margin: 0 auto;
+box-sizing: border-box;
+
+position: relative;
+top: 6%;
+
+
+}
+
+.container-integrantes {
+  width: 100%;
+  height: 48%;
+  display: flex;
+
+  /*border: solid 1px white ;*/
+  
+
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.contColIntegrantes {
+  width: 50%;
+  height: 100%;
+  /*border: 1px solid green;*/
+
+  display: flex;
+  align-items: center;
+
+}
+
+.integrantes {
+  width: 80%;
+  height: 82%;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  display: inline-flex;
+  margin: 0 auto;
+
+   /*border: 1px solid rgb(0, 42, 255);*/
+}
+
+.integrantes:hover {
+  background-color: #dfdfdf;
+  transition: 0.3s;
+}
+
+.subIntegrantes {
+  width: 40%;
+  height: 100%;
+  box-sizing: border-box;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subIntegrantes2 {
+  width: 60%;
+  height: 100%;
+
+
+  text-align: left;
+  position: relative;
+}
+
+.integrantes-favicon {
+  width: 50%;
+  height: 60px;
+  position: relative;
+  top: 20%;
+  left: 10%;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.favicon-img-redes:hover {
+  scale: 1.1;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---------------------------------------------------------- MEDIA QUERIS -------------------------------------------------------------*/
 
 @media (max-width: 1366px) {
@@ -414,6 +551,44 @@ text-align: center;
 }
 
 
+
+/* MediaQuery-SobreNosotros-Integrantes */
+
+.nosotrosSec3 {
+  height: 1100px;
+  width: 100%;
+  background-color: #1D2C55;
+}
+
+.integrantes {
+  width: 97%;
+  height: 100%;
+  position: relative;
+}
+
+.contColIntegrantes {
+  height: 80%;
+}
+
+.container-integrantes {
+  width: 100%;
+  height: 50%;
+  margin: 0;
+}
+
+.nosotrosIntegrantes {
+  height: 76%;
+}
+
+
+
+
+
+
+
+
+
+
 } /* Fin de MAXWIDTH */
 
 @media (max-width: 1070px) {
@@ -436,117 +611,3 @@ text-align: center;
 
 
 /* ---------------------------------------------------------- MEDIA QUERIS -------------------------------------------------------------*/
-
-
-
-
-/* ....................................................... PAGINA DE SERVICIOS .........................................................*/
-
-
-.containerBG1-servicios{
-  width: 100%;
-  height: 700px;
-  background-color: #15203D;
-  display: flex;
-  color: white; 
-  position: relative;
-}
-
-
-/* ....................................................... PAGINA SOBRE NOSOTROS .........................................................*/
-
-.nosotrosSec1 {
-  width: 100%;
-  height: 250px;
-  background-color: #1D2C55;
-}
-
-.nosotrosSec2 {
-  width: 100%;
-  height: 1200px;
-  background-color: #D2DEFF;
-  padding: 100px;
-}
-
-.nosotrosSec3 {
-  width: 100%;
-  height: 1200px;
-  background-color: #1D2C55;
-}
-
-.nosotrosIntegrantes {
-width: 90%;
-height: 75%;
-border: 1px solid #ac4b4b transparent;
-padding: 20px 0;
-
-margin: 0 auto;
-box-sizing: border-box;
-
-position: relative;
-top: 6%;
-
-
-}
-
-.container-integrantes {
-  width: 100%;
-  height: 48%;
-  display: flex;
-
-  border: solid 1px white transparent ;
-  justify-content: space-between;
-
-  align-items: center;
-  margin: 20px 0;
-}
-
-.integrantes {
-  width: 40%;
-  height: 82%;
-  background-color: #f0f0f0;
-  border-radius: 5px;
-  display: inline-flex;
-  margin: 0 70px;
-}
-
-.integrantes:hover {
-  background-color: #dfdfdf;
-  transition: 0.3s;
-}
-
-.subIntegrantes {
-  width: 40%;
-  height: 100%;
-  box-sizing: border-box;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.subIntegrantes2 {
-  width: 60%;
-  height: 100%;
-
-
-  text-align: left;
-  position: relative;
-}
-
-.integrantes-favicon {
-  width: 50%;
-  height: 60px;
-  position: relative;
-  top: 20%;
-  left: 10%;
-
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.favicon-img-redes:hover {
-  scale: 1.1;
-  transition: 0.2s;
-}
