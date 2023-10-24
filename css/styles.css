@@ -541,6 +541,8 @@ text-align: center;
       }
 
 
+
+
 /* ....................................................... PAGINA SOBRE NOSOTROS .........................................................*/
 
 .nosotrosSec1 {
@@ -607,13 +609,14 @@ top: 6%;
   border-radius: 5px;
   display: inline-flex;
   margin: 0 auto;
+  transition: background-color 0.3s;
 
    /*border: 1px solid rgb(0, 42, 255);*/
 }
 
 .integrantes:hover {
-  background-color: #dfdfdf;
-  transition: 0.3s;
+  background-color: rgb(202, 201, 201);
+  transition: all 0.3s;
 }
 
 .subIntegrantes {
@@ -650,21 +653,8 @@ top: 6%;
 
 .favicon-img-redes:hover {
   transform: scale(1.2);
-  transition: 0.3s;
+  transition: all 0.3s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -741,14 +731,6 @@ top: 6%;
 }
 
 
-
-
-
-
-
-
-
-
 } /* Fin de MAXWIDTH */
 
 @media (max-width: 1070px) {
@@ -765,7 +747,49 @@ top: 6%;
     
   }
 
+  /*MediaQueri-Servicios-Seccion2*/
+
+  .cardServicios1 {
+    width: 60%;
+  }
+
+  .cardServicios2 {
+    width: 60%;
+    left: 40%;
+  }
+
+  .cardServicios3 {
+    width: 60%;
+  }
+
+  .cardServicios4 {
+    width: 60%;
+    left: 40%;
+  }
+
+  .img-mantAplicacion {
+    left: 75%;
+  }
+  
+  .img-creacionPW {
+    left: 12%;
+
+  }
+  
+  .img-baseDeDatos {
+    left: 75%;
+
+  }
+  
+  .img-apkSoftware {
+    left: 12%;
+  }
+
+  .h1-servicios {
+    
+  }
 }
+
 
 
 
