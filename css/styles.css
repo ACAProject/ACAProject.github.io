@@ -656,6 +656,23 @@ top: 6%;
   transition: all 0.3s;
 }
 
+.h1-servicios {
+  color: #fff; 
+  background-color: black transparent;
+   width: 50%; 
+   font-size: 52px; 
+   margin: 0 5%;
+}
+
+.h1-servicios2 {
+  color: #fff; 
+  background-color: black transparent; 
+  width: 70%; 
+  font-size: 52px;
+  position: relative;
+  left: 24%;
+}
+
 
 
 /* ---------------------------------------------------------- MEDIA QUERIS -------------------------------------------------------------*/
@@ -698,6 +715,10 @@ top: 6%;
 
 .txtDE {
   left: 16%;
+}
+
+.containterBG4 {
+  height: 1200px;
 }
 
 
@@ -747,6 +768,10 @@ top: 6%;
     
   }
 
+  .btnVerMas {
+    left: 45%;
+  }
+
   /*MediaQueri-Servicios-Seccion2*/
 
   .cardServicios1 {
@@ -786,8 +811,20 @@ top: 6%;
   }
 
   .h1-servicios {
-    
+    position: relative;
+    width: 60%;
   }
+
+  .h1-servicios2 {
+    font-size: 50px;
+width: 90%;
+left: 4%;
+  }
+
+  .containterBG4 {
+    height: 1000px;
+  }
+
 }
 
 
