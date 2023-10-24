@@ -23,7 +23,7 @@ body{
   position: relative;
   background-color: #154663;
   width: 100%;
-  height: 65px;
+  height: 64px;
   padding: 0;
   margin: auto;
   list-style: none;
@@ -36,6 +36,8 @@ padding: 20px 35px;
 display: block;
 left: 30%;
 position: relative;
+
+transition: background-color 0.3s;
 }
 
 .nav-links li{
@@ -51,7 +53,7 @@ position: relative;
   color: #badcff;
 
   transform: scale(1.02);
-  transition: .3s;
+  transition: 0.3s;
 }
 
 
@@ -60,12 +62,15 @@ position: relative;
   height: 65px; 
   position: relative; 
   left: 2%;
+
+  transition: all 0.3s;
 }
 
 .ACAlogo:hover {
   transform: scale(1.10);
   transition: 0.7s;
 }
+
 
 
   /* --------- NAVBAR ---------*/
@@ -371,7 +376,7 @@ text-align: center;
   text-align: center;
 }
 
-/* ....................................................... PAGINA DE SERVICIOS .........................................................*/
+/* ....................................................... PAGINA DE SERVICIOS ......................................................... */
 
 .serviciosSec1 {
   width: 100%;
@@ -404,14 +409,89 @@ text-align: center;
   background-color: #D6ECFF;
 }
 
+.container-cardServicios-1 {
+  width: 100%;
+  height: 250px;
+  border: 1px solid red transparent;
+
+  box-sizing: border-box;
+  position: relative;
+  top: 5%;
+}
+
+.container-cardServicios-2 {
+  width: 100%;
+  height: 250px;
+  border: 1px solid red transparent;
+
+  box-sizing: border-box;
+  position: relative;
+  top: 10%;
+}
+
+.container-cardServicios-3 {
+  width: 100%;
+  height: 250px;
+  border: 1px solid red transparent;
+
+  box-sizing: border-box;
+  position: relative;
+  top: 15%;
+}
+
+.container-cardServicios-4 {
+  width: 100%;
+  height: 250px;
+  border: 1px solid red transparent;
+
+  box-sizing: border-box;
+  position: relative;
+  top: 20%;
+}
+
+.img-mantAplicacion {
+  width: 180px;
+  height: 180px;
+
+  position: absolute;
+  left: 70%;
+  top: 15%;
+}
+
+.img-creacionPW {
+  width: 180px;
+  height: 180px;
+
+  position: absolute;
+  left: 15%;
+  top: 15%;
+}
+
+.img-baseDeDatos {
+  width: 180px;
+  height: 180px;
+  position: absolute;
+
+  left: 70%;
+  top: 15%;
+}
+
+.img-apkSoftware {
+  width: 180px;
+  height: 180px;
+
+  position: absolute;
+  left: 15%;
+  top: 15%;
+}
+
 .cardServicios1 {
   width: 50%;
-  height: 250px;
+  height: 100%;
   background-color: #3F7CB5;
 
   border-radius: 3px;
   position: relative;
-  top: 5%;
   
   display: flex;
   align-items: center;
@@ -420,12 +500,11 @@ text-align: center;
 
   .cardServicios2 {
       width: 50%;
-      height: 250px;
+      height: 100%;
       background-color: #3F7CB5;
     
       border-radius: 3px;
       position: relative;
-      top: 10%;
 
       left: 50%;
       
@@ -436,12 +515,11 @@ text-align: center;
 
     .cardServicios3 {
       width: 50%;
-      height: 250px;
+      height: 100%;
       background-color: #3F7CB5;
     
       border-radius: 3px;
       position: relative;
-      top: 15%;
 
       display: flex;
       align-items: center;
@@ -449,12 +527,11 @@ text-align: center;
 
       .cardServicios4 {
         width: 50%;
-        height: 250px;
+        height: 100%;
         background-color: #3F7CB5;
       
       border-radius: 3px;
       position: relative;
-      top: 20%;
 
       left: 50%;
 
@@ -462,6 +539,7 @@ text-align: center;
       align-items: center;
        text-align: right;
       }
+
 
 /* ....................................................... PAGINA SOBRE NOSOTROS .........................................................*/
 
