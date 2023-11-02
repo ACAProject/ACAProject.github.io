@@ -15,25 +15,29 @@
 body{
     background-color: #007d90;
     background-image: url(../img/Fondo\ Index.jpg);
+    margin: 0;
 }
 
 /* --------- NAVBAR ---------*/
 
 .nav-links {
-  position: relative;
   background-color: #154663;
   width: 100%;
-  height: 64px;
+  height: 61px;
   padding: 0;
-  margin: auto;
+  margin: 0;
   list-style: none;
+
+  
+  position: fixed;
+  z-index: 2;
 }
 
 .nav-links li a{
 text-decoration: none;
 color: white;
 padding: 20px 35px;
-display: block;
+display: fixed;
 left: 30%;
 position: relative;
 
@@ -683,6 +687,7 @@ top: 6%;
 
 /* ---------------------------------------------------------- MEDIA QUERIS -------------------------------------------------------------*/
 
+
 @media (max-width: 1366px) {
 
   .ubicacion {
@@ -760,7 +765,7 @@ top: 6%;
 
 } /* Fin de MAXWIDTH */
 
-@media (max-width: 1070px) {
+@media (max-width: 1000px) {
 
   .txtH2-containerBG2 {
     
@@ -831,9 +836,44 @@ left: 4%;
     height: 1000px;
   }
 
+  .nav-links {
+    height: 106.5px;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links li a{
+    height: 100%;
+    text-decoration: none;
+    color: white;
+    padding: 38px 35px;
+    display: block;
+    left: 20%;
+    position: relative;
+    font-size: 19px;
+    
+    transition: background-color 0.3s;
+    }
+    
+    .nav-links li{
+      display: inline-block;
+      text-align: center;
+      left: 14%;
+      position: relative;
+    }
+
+    .ACAlogo {
+      left: 45%;
+    }
+
+    body nav {
+      display: fixed;
+    }
+
+ 
 }
-
-
 
 
 
