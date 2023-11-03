@@ -127,34 +127,35 @@
       
   <h1 style="font-size: 58px; position: absolute; color: white; left: 6%; top: 6%;" id="section-contacto">Siéntete libre de contactarnos <br> o visitarnos ante cualquier consulta.</h1>
 
-        <form name="contact">
+        <form method="POST" action="https://formspree.io/f/xeqbdkjg">
           
 
             <p style="font-size: 33px; color: #fff; font-family: 'Roboto'; font-weight: 300;">Nombre:</p>
-            <input type="text" class="form-input" style="background-color: transparent;" required placeholder="Nombre y apellido.">
+            <input type="text" class="form-input" style="background-color: transparent;" required placeholder="Nombre y apellido." name="Usuario" id="Usuario">
 
 <br>
 <br>
 <br>
             <p style="font-size: 33px; color: #fff; font-family: 'Roboto'; font-weight: 300;">E-mail:</p>
-            <input type="email" class="form-input" style="background-color: transparent;" required placeholder="ej: undenified@gmail.com">
+            <input type="email" class="form-input" style="background-color: transparent;" required placeholder="ej: mimail@gmail.com" name="Email" id="Email">
            
 <br>
 <br>
 <br>
 
             <p style="font-size: 33px; color: #fff; font-family: 'Roboto'; font-weight: 300;">Tu mensaje:</p>
-            <textarea class="form-input" name="message" style="background-color: transparent; resize: none;" required placeholder="Escribe tu mensaje."></textarea>
+            <textarea class="form-input" name="Mensaje" id="Mensaje" style="background-color: transparent; resize: none;" required placeholder="Escribe tu mensaje."></textarea>
 
 <br>
 <br>
 <br>
 
             <p class="center_content">
-              <input type="submit" class="btn btn-enviar" value="Enviar" style="color: #fff; font-size: 18px;">
+              <button class="btn btn-enviar" type="submit" style="font-size: 18px; color: #fff;">Enviar</button>
             </p>
 
         </form>
+
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3274.724327653351!2d-56.17015602452608!3d-34.83802307287117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a02af2e3f4f95f%3A0xa2b1e3cc84fed1e3!2sLiceo%20Impulso!5e0!3m2!1ses-419!2suy!4v1693451558826!5m2!1ses-419!2suy" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="ubicacion"></iframe>
     </div>
 

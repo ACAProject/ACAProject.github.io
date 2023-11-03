@@ -55,9 +55,10 @@ transition: background-color 0.3s;
 .nav-links li a:hover{
   background-color: #04283b;
   color: #badcff;
+  border-radius: 3px;
 
   transform: scale(1.02);
-  transition: 0.3s;
+  transition: all 0.3s ease-in-out;
 }
 
 
@@ -220,7 +221,7 @@ transition: background-color 0.3s;
 .containterBG4{
   width: 100%;
   height: 1300px;
-  background-color: #1E4556;
+  background-color: rgb(25, 64, 103);
   position: relative;
 }
 
@@ -384,8 +385,11 @@ text-align: center;
 
 .serviciosSec1 {
   width: 100%;
-  height: 230px;
+  height: 320px;
   background-color: #1D2C55;
+  position: relative;
+  display: inline-block;
+
 }
 
 .containerBG1-servicios{
@@ -551,7 +555,7 @@ text-align: center;
 
 .nosotrosSec1 {
   width: 100%;
-  height: 230px;
+  height: 320px;
   background-color: #1D2C55;
 }
 
@@ -850,9 +854,9 @@ left: 4%;
     color: white;
     padding: 38px 35px;
     display: block;
-    left: 20%;
+    left: 18%;
     position: relative;
-    font-size: 19px;
+    font-size: 24px;
     
     transition: background-color 0.3s;
     }
@@ -860,8 +864,9 @@ left: 4%;
     .nav-links li{
       display: inline-block;
       text-align: center;
-      left: 14%;
+      left: 7%;
       position: relative;
+      height: 100%;
     }
 
     .ACAlogo {
