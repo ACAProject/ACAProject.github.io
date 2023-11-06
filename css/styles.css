@@ -93,6 +93,15 @@ transition: background-color 0.3s;
   position: relative;
   }
 
+  .h1-index-section1 {
+    font-family: Helvetica; 
+    position: absolute; 
+    font-size: 55px; 
+    left: 4%;
+    top: 33%; 
+    font-style: bold;
+  }
+
   .imgContainerBG1 {
     width: 100%;
     height: 100%;
@@ -877,7 +886,29 @@ left: 4%;
       display: fixed;
     }
 
- 
+
+
+    .containerBG1 {
+      height: 1000px;
+    }
+    
+      .txtH2-containerBG2 {
+        top: 15%;
+        position: relative;
+        right: 0;
+      }
+
+      .p-containerBG2 {
+        font-size: 35px;
+        top: 15%;
+        position: relative;
+        left: 0;
+        top: 28%;
+      }
+
+      .h1-index-section1 {
+        top: 45%; 
+      }
 }
 
 
